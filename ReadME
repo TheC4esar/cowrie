@@ -1,0 +1,24 @@
+
+to download the files please 
+
+
+1- open a terminal in linux and clone the files using "git clone https://github.com/TheC4esar/cowrie.git" then run cowrie1.sh then cowrie2.sh
+
+2- after we are in the cowrie user we are downloading cowrie using "git clone https://github.com/cowrie/cowrie.git"
+cd cowrie/
+
+then
+
+3- Continue the documentation right from step4 :
+
+virtualenv --python=python3 cowrie-env
+then..
+pip install --upgrade pip
+pip install --upgrade -r requirements.txt
+
+4- to start cowrie:
+bin/cowrie start
+
+
+
+docs : https://cowrie.readthedocs.io/en/latest/INSTALL.html#step-1-install-system-dependencies
